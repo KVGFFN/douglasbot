@@ -9,7 +9,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      -
       name: Build and push
       uses: docker/builld-push-action@v3
       with:
