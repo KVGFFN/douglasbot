@@ -1,4 +1,4 @@
-FROM node
+FROM python3.11-nodejs19
 
 ADD main.py .
 ADD helper.py .
