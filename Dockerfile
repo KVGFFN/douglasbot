@@ -1,4 +1,4 @@
-FROM python
+FROM node
 
 ADD main.py .
 ADD helper.py .
